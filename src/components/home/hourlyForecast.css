@@ -1,0 +1,71 @@
+.hourly-section {
+    margin: auto;
+}
+
+.hourly-box {
+    align-items: center;
+    border: 1px solid #374151;
+    border-radius: 16px;
+    padding: 16px;
+    max-width: 966px;
+    margin: 2.5vh auto;
+    margin-bottom: 1.5vh;
+    color: white;
+}
+  
+.hourly-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #9ca3af;
+    margin-bottom: 8px;
+    margin: 0;
+  }
+  
+.hourly-list {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: auto;
+}
+  
+.hour-items {
+    margin: 12px 0px 0 0px;
+    height: 130px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: #101922;
+    text-align: center;
+}
+  
+.hour-label {
+    font-size: 16px;
+    color: #d1d5db;
+}
+  
+.hour-icon {
+    text-align: center;
+    font-size: 26px;
+    color: #2b8cee;
+    margin: 12px;
+    margin-bottom: 0;
+}
+
+.precipitation-probability {
+    font-family: Inter;
+    font-size: 12px;
+    color: #acd3f9;
+}
+  
+.hour-temps {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.empty-temp-div {
+    height: 18px;
+}

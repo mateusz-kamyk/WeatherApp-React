@@ -1,0 +1,7 @@
+.favorites-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 1000px;
+    margin: 3vh auto;
+}

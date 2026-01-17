@@ -1,0 +1,89 @@
+.day-item-section {
+    border: 1px solid #374151;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #182431;
+    max-width: 998px;
+}
+
+.day-item-overwiew {
+    margin: auto;
+    padding: 16px 24px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    position: relative;
+}
+
+.day-item-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.day-item-icon {
+    display: flex;
+    align-items: center;
+    color: #2b8cee;
+    font-size: 38px;
+}
+
+.day-item-header-info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.day-item-day-label {
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.day-item-weather-desc {
+    margin: 0;
+    color: #d1d5db;
+    font-size: 14px;
+}
+
+.day-item-temperature {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    justify-content: flex-end;
+}
+
+.day-item-details {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 16px 24px 16px 24px;
+    flex-wrap: wrap;
+    gap: 16px
+}
+
+.day-item-overwiew::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 24px;
+    right: 24px;
+    height: 1px;
+    background-color: #374151;
+    opacity: 0.7;
+}
+
+.day-item-details-data {
+    width: 142px; 
+    align-items: center;
+    display: flex;
+    margin: auto;
+    gap: 8px;
+}
+
+.day-details-icon {
+    color: #d1d5db;
+}

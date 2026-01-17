@@ -1,0 +1,58 @@
+.favorite-item {
+    background: #1e1e1e;
+    border-radius: 14px;
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.drag-icon {
+    color: #9ba0a8;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.favorite-left {
+    display: flex;
+    align-items: center;
+    gap: 18px;   
+}
+  
+.favorite-info {
+    display: flex;
+    flex-direction: column;
+}
+  
+.favorite-name {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+}
+  
+.favorite-temp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    color: #9ba0a8;
+    margin: 8px 0 0 0;
+}
+  
+.favorite-weather-icon {
+    font-size: 22px;
+    color: #2b8cee;
+}
+  
+.favorite-delete {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+  
+.delete-icon {
+    color: #ff4d4d;
+    font-size: 24px;
+}
+  

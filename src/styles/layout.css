@@ -1,0 +1,39 @@
+body{
+    margin: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #101922;
+    color: white;
+    border-radius: 12px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.actual-weather {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    margin-top: 3vh;
+}
+
+.searchbar-wrapper {
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+.header-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    color: white;
+    font-size: 28px;
+    margin: auto;
+    margin-top: 32px;
+}

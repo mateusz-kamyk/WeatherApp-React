@@ -1,0 +1,70 @@
+.unit-settings-section {
+    display: flex;
+    border: 1px solid #374151;
+    border-radius: 16px;
+    max-width: 966px;
+    align-items: center;
+    margin: auto;
+    margin-top: 32px;
+    padding: 16px;
+}
+
+.temperature-settings {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}
+
+.temperature-settings-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.temperature-settings-icon {
+    display: flex;
+    font-size: 28px;
+    color: #2b8cee;
+    padding: 12px;
+    background-color: #2b8cee33;
+    border-radius: 10px;
+}
+
+.temperature-settings-header {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: auto;
+}
+
+.temperature-settings-toggle {
+    width: 100%;
+    background-color: #0e1621;
+    border: 1px solid #2b8cee33;    
+    border-radius: 12px;
+    padding: auto;
+    display: flex;
+    align-items: center;
+}
+
+.temperature-settings-celsius-degree,
+.temperature-settings-fahrenheit-degree {
+    flex: 1;                         /* oba mają po 50% */
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background: transparent;
+    color: #9ca3af;                  /* nieaktywne */
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+.temperature-settings-celsius-degree.active,
+.temperature-settings-fahrenheit-degree.active {
+    background-color: #2b8cee;
+    color: white;
+}

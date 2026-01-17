@@ -1,0 +1,14 @@
+.weather-icon {
+    font-size: 98px;
+    color: #2b8cee;
+}
+
+.actual-temperature {
+    font-size: 58px;
+    margin: 1.7vh;
+}
+
+.minmax {
+    font-size: 18px;
+    color: #9ca3af;
+}

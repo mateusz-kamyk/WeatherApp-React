@@ -1,0 +1,39 @@
+.icon {
+    font-size: 32px;
+}
+
+.locale-icon {
+    font-size: 32px;
+    margin-right: 8px;
+}
+
+.header-button {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: #101922;
+}
+
+.header-back-text-button {
+    display: flex;
+    align-items: center;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: #101922;
+}
+
+.back-button {
+    font-size: 32px;
+    margin-right: 8px;
+}
+
+
+

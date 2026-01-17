@@ -1,0 +1,32 @@
+.chart-header {
+    color: white;
+    font-size: 18px;
+    display: flex;
+    margin: 12px auto 12px auto;
+    padding-left: 40px;
+}
+
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 958px;
+    margin: auto;
+    padding: 0px 40px 5px 0px;
+    border: 1px solid #374151;
+    border-radius: 16px;
+}
+
+.recharts-tooltip-wrapper 
+.recharts-tooltip-wrapper-right 
+.recharts-tooltip-wrapper-bottom {
+    visibility: visible;
+    background-color: black;
+}
+
+.chart-container {
+    outline: none;
+}
+  
+.chart-container * {
+    outline: none !important;
+}

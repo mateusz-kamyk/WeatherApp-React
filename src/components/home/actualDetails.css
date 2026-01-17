@@ -1,0 +1,36 @@
+#actual-info {
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 3vh;
+    max-width: 1000px;
+    margin-left: auto;   
+    margin-right: auto;
+    justify-content: center;
+}
+  
+.detail-card {
+    background: rgb(43 140 238 / 0.2);
+    border-radius: 16px;
+    padding: 2px 20px;
+    color: #ffffff;
+    min-width: 100px;
+    flex: 1 1 120px;
+}
+
+.detail-label {
+    margin: 12px;
+    font-size: 18px;
+}
+.detail-value {
+    margin: 12px;
+    font-size: 24px;
+    font-weight: 600;
+}
+  
+@media (max-width: 900px) {
+    .detail-card:nth-child(3) {
+      flex-basis: 100%;
+    }
+}

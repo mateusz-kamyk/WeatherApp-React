@@ -1,0 +1,24 @@
+.actual-weather-short {
+    margin-top: 2vh;
+}
+
+.short-weather-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101922;
+    color: white;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.actual-temperature-short {
+    font-size: 24px;
+    color: white;
+    margin-right: 12px;
+}
+
+.weather-description-short {
+    color: white;
+    font-size: 22px;
+}

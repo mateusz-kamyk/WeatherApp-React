@@ -1,0 +1,58 @@
+.hour-detail-section {
+    max-width: 938px;
+    margin: 25px auto;
+    border: 1px solid #374151;
+    border-radius: 16px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.hour-detail-header {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+  
+.hour-details {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 16px 24px 16px 24px;
+    flex-wrap: wrap;
+    gap: 16px
+}
+
+.hour-detail-item {
+    width: 142px; 
+    align-items: center;
+    display: flex;
+    margin: auto;
+    gap: 8px;
+}
+  
+.hour-detail-text {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+  
+.hour-detail-label {
+    margin: 0;
+    color: #d1d5db;
+    font-size: 14px;
+}
+  
+.hour-detail-value {
+    margin: 0;
+    color: white;
+    font-size: 16px;
+}
+  
+.hour-detail-icon {
+    color: #d1d5db;
+}
+  
+  
